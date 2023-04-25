@@ -20,7 +20,7 @@ public class HelloApiTest {
     void helloApi() throws Exception {
         TestRestTemplate rest = new TestRestTemplate();
 
-        ResponseEntity<String> res = rest.getForEntity("http://localhost:8080/hello?name={name}",
+        ResponseEntity<String> res = rest.getForEntity("http://localhost:9090/app/hello?name={name}",
             String.class, "Spring");
 
 

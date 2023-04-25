@@ -2,3 +2,5 @@ toy.config.autoconfig.TomcatWebServerConfig
 toy.config.autoconfig.JettyWebServerConfig
 toy.config.autoconfig.UnderTowWebServerConfig
 toy.config.autoconfig.DispatcherServletConfig
+toy.config.autoconfig.PropertyPlaceholderConfig
+toy.config.autoconfig.PropertyPostProcessorConfig
