@@ -4,3 +4,4 @@ toy.config.autoconfig.UnderTowWebServerConfig
 toy.config.autoconfig.DispatcherServletConfig
 toy.config.autoconfig.PropertyPlaceholderConfig
 toy.config.autoconfig.PropertyPostProcessorConfig
+toy.config.autoconfig.DataSourceConfig
