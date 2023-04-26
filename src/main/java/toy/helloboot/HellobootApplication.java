@@ -2,10 +2,10 @@ package toy.helloboot;
 
 import javax.annotation.PostConstruct;
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.jdbc.core.JdbcTemplate;
-import toy.config.MySpringBootApplication;
 
-@MySpringBootApplication
+@SpringBootApplication
 public class HellobootApplication {
 
 	private final JdbcTemplate jdbcTemplate;
